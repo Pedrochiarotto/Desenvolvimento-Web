@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--Posicionamentos: Static, Fixed, Relative, absolute
+Static: Padrao 
+
+-->
+
+<style>
+    body{
+        background: black;
+    }
+    #conteiner{
+        background: white;
+        width: 800px;
+        border: 01px solid black;
+        margin: 10px auto;/* o comando auto centraliza o bloco na tela*/
+        position: relative;
+    }
+
+    .relative{
+        border: 1px solid red;
+        width: 300px;
+        margin: 10px ;
+        position: relative;
+        /* top bottom right left*/
+        left: 50px;
+       
+    }
+
+    p{
+        width: 300px;
+    }
+
+    .absolute{
+        /*sai do fluxo normal e não afeta os outros elementos, se sobrepoe*/
+        position: absolute;
+        border: 1px solid red;
+        top: 0px;
+        background-color: white;
+        right: 50px;
+        top: 80px;
+    }
+
+    h1{
+        position: fixed;
+        background-color: white;
+        height: 200px;
+        width: 800px;
+        margin: 0;
+    }
+
+</style>
+<body>
+
+    
+    <div id="conteiner">
+        <h1> POSICIONAMENTOS</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime accusantium tempora harum cupiditate, soluta necessitatibus inventore sed odio ea maiores possimus nihil. Natus numquam iure doloribus quam cupiditate aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates, laborum itaque quas assumenda ad, cum quod accusantium ab amet et! Provident dolor aut veniam distinctio, totam saepe numquam mollitia?
+        </p >
+
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa alias consequatur quos sapiente molestias quidem corrupti velit esse earum, nemo atque dicta explicabo ut consectetur ullam, unde nihil eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam illum corporis placeat dignissimos laudantium. Et, quidem consequatur. Recusandae eum asperiores illo, dolorem dolorum iste omnis inventore numquam. Repellat, aliquid aperiam?
+        </p>
+
+        <p class="absolute">
+             P3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa alias consequatur quos sapiente molestias quidem corrupti velit esse earum, nemo atque dicta explicabo ut consectetur ullam, unde nihil eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam illum corporis placeat dignissimos laudantium. Et, quidem consequatur. Recusandae eum asperiores illo, dolorem dolorum iste omnis inventore numquam. Repellat, aliquid aperiam?
+        </p>
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime accusantium tempora harum cupiditate, soluta necessitatibus inventore sed odio ea maiores possimus nihil. Natus numquam iure doloribus quam cupiditate aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates, laborum itaque quas assumenda ad, cum quod accusantium ab amet et! Provident dolor aut veniam distinctio, totam saepe numquam mollitia?
+        </p >
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime accusantium tempora harum cupiditate, soluta necessitatibus inventore sed odio ea maiores possimus nihil. Natus numquam iure doloribus quam cupiditate aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates, laborum itaque quas assumenda ad, cum quod accusantium ab amet et! Provident dolor aut veniam distinctio, totam saepe numquam mollitia?
+        </p >
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime accusantium tempora harum cupiditate, soluta necessitatibus inventore sed odio ea maiores possimus nihil. Natus numquam iure doloribus quam cupiditate aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates, laborum itaque quas assumenda ad, cum quod accusantium ab amet et! Provident dolor aut veniam distinctio, totam saepe numquam mollitia?
+        </p >
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime accusantium tempora harum cupiditate, soluta necessitatibus inventore sed odio ea maiores possimus nihil. Natus numquam iure doloribus quam cupiditate aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates, laborum itaque quas assumenda ad, cum quod accusantium ab amet et! Provident dolor aut veniam distinctio, totam saepe numquam mollitia?
+        </p >
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime accusantium tempora harum cupiditate, soluta necessitatibus inventore sed odio ea maiores possimus nihil. Natus numquam iure doloribus quam cupiditate aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates, laborum itaque quas assumenda ad, cum quod accusantium ab amet et! Provident dolor aut veniam distinctio, totam saepe numquam mollitia?
+        </p >
+
+    </div>
+</body>
+</html>
