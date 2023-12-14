@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .conteudo1{
+        border:1px solid red;
+        background-color: orange;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: 1 ; /*Define qual elemento aparece primeiro
+        - O maior número é o que vai aparecer*/
+    }
+    .conteudo2{
+        border:1px solid red;
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        z-index: 0;
+    }
+</style>
+
+<body>
+    <div class="conteudo1">
+
+        conteudo 1
+    </div>
+
+    <div class="conteudo2">
+        conteudo 2
+    </div>
+</body>
+</html>
