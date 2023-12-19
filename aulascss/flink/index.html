@@ -5,7 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    a{
+        text-decoration: none; /*para tirar o underline do link */
+    }
+
+    /* estados de links */
+
+   /*Link não visitado */ 
+   a:link{
+        color: #b9c941;
+    }
+
+    /*link visitados */
+    a:visited{
+        color: #c0c0c0;
+    }
+
+    /* interacao com cursor e link (hover) */
+    a:hover{
+        color: #6d790f;
+        background-color: lightblue;
+    }
+
+    /* links ativados(quando clicado) */
+    a:active{
+        color: green;
+    }
+</style>
 <body>
-    
+    <a href="https://www.google.com/">Google</a> |
+    <a href="https://www.tecmundo.com/">Tecmundo</a> | 
+    <a href="https://www.megacurioso.com.br/">Megacurioso</a>
+    <a href="https://www.YouTube.com.br/">YouTube</a>
 </body>
 </html>
