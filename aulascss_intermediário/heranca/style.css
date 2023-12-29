@@ -1,0 +1,9 @@
+
+.pagina p{
+    color: red !important;
+}
+ /*será efetuado sempre o ultimo seletor escrito, com excessão do que estiver com o atributo "!important"*/
+.pagina p{
+    color: blue;
+}
+
