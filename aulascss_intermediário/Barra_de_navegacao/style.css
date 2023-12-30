@@ -1,0 +1,59 @@
+/* ul{
+    
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding:10px 20px;
+    
+    background: url("arquivos-necessarios-barra-navegacao-vertical/seta.png") no-repeat left center;
+    
+} */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: #f7b600 url(arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat;
+    text-decoration: none;
+    color: black;
+    text-indent: 40px;
+    line-height: 40px; /* altura da linha do texto*/
+}
+
+ul a:hover, .selecionado a{
+    
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+#home .home a {
+    background-position: right bottom;
+}
+
+#sobre .sobre a {
+    background-position: right bottom;
+}
+
+#servicos .servicos a {
+    background-position: right bottom;
+}
+
+#noticias .noticias a {
+    background-position: right bottom;
+}
+
+#contatos .contatos a {
+    background-position: right bottom;
+    
+
+}
