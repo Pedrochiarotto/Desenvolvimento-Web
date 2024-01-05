@@ -1,0 +1,88 @@
+body{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#conteiner{
+    width: 920px; 
+    margin: 0 auto;
+    background: #fff url(img/coluna.png) repeat-y left top;
+
+    padding: 0;
+    min-width: 720px; /* espacamento minimo para que os conteudos nao saiam de dentro de seus devidos lugares */
+}
+
+#marca{
+    height: 200px;
+    background: #225992 url(img/cabecalho2.jpg) no-repeat center;
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+}
+
+#conteudo{
+    width: 75%; /* 520px -> 74.28% */
+    float: right;
+}
+
+#conteudo_central{
+    width: 50%;
+    float: left;
+}
+/*
+#imagem{
+    width: 100%;
+    overflow: hidden; .
+
+    -> usamos o overflow:hidden para não deixar a imagem ultrapassar o limite da div, porem a imagem é cortada */
+
+ img.img-noticia{
+    width: 90%;
+    padding: 2%;
+    max-width: 600px;
+ }
+
+#conteudo_lateral{
+    float: right;
+    width: 30%;
+}
+
+#navegacao{
+    width: 23%; /* 180px */
+    float: left;
+    
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+
+#navegacao ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    padding: 0 ;
+    margin: 0px;
+    height: 35px;
+}
+
+#navegacao li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 40px;
+    
+}
+
+#navegacao li a:hover{
+    background-color: #9e9e9e;
+    height: 30px;
+}
+
