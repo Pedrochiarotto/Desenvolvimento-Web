@@ -1,0 +1,8 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+}

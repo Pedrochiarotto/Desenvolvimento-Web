@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Estilizando Formulários</h2>
+
+    <form action="">
+        <fieldset> <!-- Utilizado para agrupar dados de um form-->
+            <legend> <!--Legenda para detalhar o agrupamento-->
+                Detalhes de contato
+            </legend>
+            <div>
+                <label for="nome"> <!-- "for" para identificar as caixas de texto-->
+                   Nome: 
+                </label>
+                <input type="text" name="nome" id="nome"> <!-- o Id do input TEM que estar com o mesmo caracter do "for"; é possivel também utilizar o input dentro do label. Nesse caso, não seria necessário utilizar o for-->
+            </div>
+
+            <div>
+                <label > 
+                    Email: 
+                    <input type="text" name="email" id="email">
+                </label>
+            </div>
+
+            <div>
+                <label > 
+                    Url: 
+                    <input type="text" name="url" id="url">
+                </label>
+            </div>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
