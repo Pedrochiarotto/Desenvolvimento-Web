@@ -5,4 +5,9 @@ body{
 fieldset{
     padding: 1em;
     border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend{
+    font-weight: bold;
 }
