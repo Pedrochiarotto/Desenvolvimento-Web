@@ -86,25 +86,55 @@ body.fotos #menuh a#fotos{
     margin-top: 60px;
 }
 
-#primario {
+#lateral{
+    width: 180px;
+    float: left;
+    
+    margin: 0px 0px 20px -750px;
+}
+
+ #primario {
     width: 270px;
     float: left;
-    background: blue;
+   
     margin: 0px 0px 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
 }
 
 #secundario{
     width: 270px;
     float: left;
-    background: green;
+    
     margin: 0 0 20px 15px;
 }
 
-#lateral{
-    width: 180px;
-    float: left;
-    background: yellow;
-    margin: 0px 0px 20px -750px;
+
+
+/*caixa*/
+.caixa{
+    background: #f3f3f3 url(imgs/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 1em;
+    color: #fff;
+    background: #294c71;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 
